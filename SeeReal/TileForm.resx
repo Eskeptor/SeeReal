@@ -1,0 +1,1290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnMacroSave.Name" xml:space="preserve">
+    <value>btnMacroSave</value>
+  </data>
+  <data name="&gt;&gt;btnMacroSave.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btnMacroSave.Parent" xml:space="preserve">
+    <value>pageMacro</value>
+  </data>
+  <data name="&gt;&gt;btnMacroSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gridMacro.Name" xml:space="preserve">
+    <value>gridMacro</value>
+  </data>
+  <data name="&gt;&gt;gridMacro.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroGrid, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;gridMacro.Parent" xml:space="preserve">
+    <value>pageMacro</value>
+  </data>
+  <data name="&gt;&gt;gridMacro.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pageMacro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="pageMacro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 533</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pageMacro.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pageMacro.Text" xml:space="preserve">
+    <value>매크로</value>
+  </data>
+  <data name="&gt;&gt;pageMacro.Name" xml:space="preserve">
+    <value>pageMacro</value>
+  </data>
+  <data name="&gt;&gt;pageMacro.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pageMacro.Parent" xml:space="preserve">
+    <value>tabTileForm</value>
+  </data>
+  <data name="&gt;&gt;pageMacro.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tboxLog.Name" xml:space="preserve">
+    <value>tboxLog</value>
+  </data>
+  <data name="&gt;&gt;tboxLog.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tboxLog.Parent" xml:space="preserve">
+    <value>pageLog</value>
+  </data>
+  <data name="&gt;&gt;tboxLog.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pageLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="pageLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 533</value>
+  </data>
+  <data name="pageLog.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pageLog.Text" xml:space="preserve">
+    <value>통신 기록</value>
+  </data>
+  <data name="&gt;&gt;pageLog.Name" xml:space="preserve">
+    <value>pageLog</value>
+  </data>
+  <data name="&gt;&gt;pageLog.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pageLog.Parent" xml:space="preserve">
+    <value>tabTileForm</value>
+  </data>
+  <data name="&gt;&gt;pageLog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboxLogToken.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxLogToken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 379</value>
+  </data>
+  <data name="cboxLogToken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 29</value>
+  </data>
+  <data name="cboxLogToken.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;cboxLogToken.Name" xml:space="preserve">
+    <value>cboxLogToken</value>
+  </data>
+  <data name="&gt;&gt;cboxLogToken.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxLogToken.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxLogToken.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLogToken.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogToken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 385</value>
+  </data>
+  <data name="lblLogToken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 19</value>
+  </data>
+  <data name="lblLogToken.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblLogToken.Text" xml:space="preserve">
+    <value>구분자</value>
+  </data>
+  <data name="&gt;&gt;lblLogToken.Name" xml:space="preserve">
+    <value>lblLogToken</value>
+  </data>
+  <data name="&gt;&gt;lblLogToken.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblLogToken.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblLogToken.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboxLogSaveType.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxLogSaveType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 344</value>
+  </data>
+  <data name="cboxLogSaveType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 29</value>
+  </data>
+  <data name="cboxLogSaveType.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;cboxLogSaveType.Name" xml:space="preserve">
+    <value>cboxLogSaveType</value>
+  </data>
+  <data name="&gt;&gt;cboxLogSaveType.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxLogSaveType.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxLogSaveType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblLogType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 348</value>
+  </data>
+  <data name="lblLogType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 19</value>
+  </data>
+  <data name="lblLogType.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="lblLogType.Text" xml:space="preserve">
+    <value>로그 저장 타입</value>
+  </data>
+  <data name="&gt;&gt;lblLogType.Name" xml:space="preserve">
+    <value>lblLogType</value>
+  </data>
+  <data name="&gt;&gt;lblLogType.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblLogType.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblLogType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnLogPathFind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 423</value>
+  </data>
+  <data name="btnLogPathFind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 23</value>
+  </data>
+  <data name="btnLogPathFind.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="btnLogPathFind.Text" xml:space="preserve">
+    <value>찾아보기</value>
+  </data>
+  <data name="&gt;&gt;btnLogPathFind.Name" xml:space="preserve">
+    <value>btnLogPathFind</value>
+  </data>
+  <data name="&gt;&gt;btnLogPathFind.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btnLogPathFind.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;btnLogPathFind.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblLogEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 348</value>
+  </data>
+  <data name="lblLogEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="lblLogEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblLogEnable.Text" xml:space="preserve">
+    <value>로그 저장</value>
+  </data>
+  <data name="&gt;&gt;lblLogEnable.Name" xml:space="preserve">
+    <value>lblLogEnable</value>
+  </data>
+  <data name="&gt;&gt;lblLogEnable.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblLogEnable.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblLogEnable.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="toggleLogSave.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toggleLogSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 350</value>
+  </data>
+  <data name="toggleLogSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="toggleLogSave.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="toggleLogSave.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;toggleLogSave.Name" xml:space="preserve">
+    <value>toggleLogSave</value>
+  </data>
+  <data name="&gt;&gt;toggleLogSave.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;toggleLogSave.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;toggleLogSave.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>481, 1</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tboxLogSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 423</value>
+  </data>
+  <data name="tboxLogSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>503, 23</value>
+  </data>
+  <data name="tboxLogSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;tboxLogSavePath.Name" xml:space="preserve">
+    <value>tboxLogSavePath</value>
+  </data>
+  <data name="&gt;&gt;tboxLogSavePath.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tboxLogSavePath.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;tboxLogSavePath.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblLogSavePath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 425</value>
+  </data>
+  <data name="lblLogSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 19</value>
+  </data>
+  <data name="lblLogSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblLogSavePath.Text" xml:space="preserve">
+    <value>로그 저장 경로</value>
+  </data>
+  <data name="&gt;&gt;lblLogSavePath.Name" xml:space="preserve">
+    <value>lblLogSavePath</value>
+  </data>
+  <data name="&gt;&gt;lblLogSavePath.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblLogSavePath.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblLogSavePath.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cboxTileColor.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxTileColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 95</value>
+  </data>
+  <data name="cboxTileColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 29</value>
+  </data>
+  <data name="cboxTileColor.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;cboxTileColor.Name" xml:space="preserve">
+    <value>cboxTileColor</value>
+  </data>
+  <data name="&gt;&gt;cboxTileColor.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxTileColor.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxTileColor.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cboxFlow.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxFlow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 268</value>
+  </data>
+  <data name="cboxFlow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 29</value>
+  </data>
+  <data name="cboxFlow.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cboxFlow.Name" xml:space="preserve">
+    <value>cboxFlow</value>
+  </data>
+  <data name="&gt;&gt;cboxFlow.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxFlow.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxFlow.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cboxStopBit.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxStopBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 225</value>
+  </data>
+  <data name="cboxStopBit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 29</value>
+  </data>
+  <data name="cboxStopBit.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;cboxStopBit.Name" xml:space="preserve">
+    <value>cboxStopBit</value>
+  </data>
+  <data name="&gt;&gt;cboxStopBit.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxStopBit.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxStopBit.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cboxParity.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxParity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 184</value>
+  </data>
+  <data name="cboxParity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 29</value>
+  </data>
+  <data name="cboxParity.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;cboxParity.Name" xml:space="preserve">
+    <value>cboxParity</value>
+  </data>
+  <data name="&gt;&gt;cboxParity.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxParity.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxParity.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cboxDataBit.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxDataBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 142</value>
+  </data>
+  <data name="cboxDataBit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 29</value>
+  </data>
+  <data name="cboxDataBit.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;cboxDataBit.Name" xml:space="preserve">
+    <value>cboxDataBit</value>
+  </data>
+  <data name="&gt;&gt;cboxDataBit.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxDataBit.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxDataBit.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cboxBaudRate.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxBaudRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 99</value>
+  </data>
+  <data name="cboxBaudRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 29</value>
+  </data>
+  <data name="cboxBaudRate.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;cboxBaudRate.Name" xml:space="preserve">
+    <value>cboxBaudRate</value>
+  </data>
+  <data name="&gt;&gt;cboxBaudRate.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxBaudRate.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxBaudRate.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cboxPort.ItemHeight" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="cboxPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 57</value>
+  </data>
+  <data name="cboxPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 29</value>
+  </data>
+  <data name="cboxPort.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cboxPort.Name" xml:space="preserve">
+    <value>cboxPort</value>
+  </data>
+  <data name="&gt;&gt;cboxPort.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroComboBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;cboxPort.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;cboxPort.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
+    <value>132, 1</value>
+  </data>
+  <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tboxSerialName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 21</value>
+  </data>
+  <data name="tboxSerialName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 23</value>
+  </data>
+  <data name="tboxSerialName.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tboxSerialName.Name" xml:space="preserve">
+    <value>tboxSerialName</value>
+  </data>
+  <data name="&gt;&gt;tboxSerialName.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tboxSerialName.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;tboxSerialName.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblFlow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFlow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 273</value>
+  </data>
+  <data name="lblFlow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="lblFlow.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblFlow.Text" xml:space="preserve">
+    <value>흐름 제어</value>
+  </data>
+  <data name="&gt;&gt;lblFlow.Name" xml:space="preserve">
+    <value>lblFlow</value>
+  </data>
+  <data name="&gt;&gt;lblFlow.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblFlow.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblFlow.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblStopBit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStopBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 231</value>
+  </data>
+  <data name="lblStopBit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="lblStopBit.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblStopBit.Text" xml:space="preserve">
+    <value>정지 비트</value>
+  </data>
+  <data name="&gt;&gt;lblStopBit.Name" xml:space="preserve">
+    <value>lblStopBit</value>
+  </data>
+  <data name="&gt;&gt;lblStopBit.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStopBit.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblStopBit.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblParity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblParity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 189</value>
+  </data>
+  <data name="lblParity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="lblParity.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblParity.Text" xml:space="preserve">
+    <value>패리티 코드</value>
+  </data>
+  <data name="&gt;&gt;lblParity.Name" xml:space="preserve">
+    <value>lblParity</value>
+  </data>
+  <data name="&gt;&gt;lblParity.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblParity.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblParity.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblDataBit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDataBit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 147</value>
+  </data>
+  <data name="lblDataBit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="lblDataBit.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblDataBit.Text" xml:space="preserve">
+    <value>데이터 비트</value>
+  </data>
+  <data name="&gt;&gt;lblDataBit.Name" xml:space="preserve">
+    <value>lblDataBit</value>
+  </data>
+  <data name="&gt;&gt;lblDataBit.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblDataBit.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblDataBit.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblBaudRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBaudRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 105</value>
+  </data>
+  <data name="lblBaudRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="lblBaudRate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblBaudRate.Text" xml:space="preserve">
+    <value>보드 레이트</value>
+  </data>
+  <data name="&gt;&gt;lblBaudRate.Name" xml:space="preserve">
+    <value>lblBaudRate</value>
+  </data>
+  <data name="&gt;&gt;lblBaudRate.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblBaudRate.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblBaudRate.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 63</value>
+  </data>
+  <data name="lblPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 19</value>
+  </data>
+  <data name="lblPort.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblPort.Text" xml:space="preserve">
+    <value>포트</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Name" xml:space="preserve">
+    <value>lblPort</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblPort.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lblSerialName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSerialName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="lblSerialName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="lblSerialName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblSerialName.Text" xml:space="preserve">
+    <value>시리얼명</value>
+  </data>
+  <data name="&gt;&gt;lblSerialName.Name" xml:space="preserve">
+    <value>lblSerialName</value>
+  </data>
+  <data name="&gt;&gt;lblSerialName.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblSerialName.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblSerialName.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 489</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 41</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="btnAdapt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>636, 489</value>
+  </data>
+  <data name="btnAdapt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 41</value>
+  </data>
+  <data name="btnAdapt.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnAdapt.Text" xml:space="preserve">
+    <value>적용</value>
+  </data>
+  <data name="&gt;&gt;btnAdapt.Name" xml:space="preserve">
+    <value>btnAdapt</value>
+  </data>
+  <data name="&gt;&gt;btnAdapt.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btnAdapt.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;btnAdapt.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblTileColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTileColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 100</value>
+  </data>
+  <data name="lblTileColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 19</value>
+  </data>
+  <data name="lblTileColor.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblTileColor.Text" xml:space="preserve">
+    <value>타일 색상</value>
+  </data>
+  <data name="&gt;&gt;lblTileColor.Name" xml:space="preserve">
+    <value>lblTileColor</value>
+  </data>
+  <data name="&gt;&gt;lblTileColor.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblTileColor.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblTileColor.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btnDelayDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>710, 71</value>
+  </data>
+  <data name="btnDelayDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 12</value>
+  </data>
+  <data name="btnDelayDown.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnDelayDown.Text" xml:space="preserve">
+    <value>▾</value>
+  </data>
+  <data name="&gt;&gt;btnDelayDown.Name" xml:space="preserve">
+    <value>btnDelayDown</value>
+  </data>
+  <data name="&gt;&gt;btnDelayDown.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btnDelayDown.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDelayDown.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="resource.Image3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Location3" type="System.Drawing.Point, System.Drawing">
+    <value>65, 1</value>
+  </data>
+  <data name="resource.Size3" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="resource.TabIndex3" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible3" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tboxDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 59</value>
+  </data>
+  <data name="tboxDelay.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="tboxDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="tboxDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tboxDelay.Name" xml:space="preserve">
+    <value>tboxDelay</value>
+  </data>
+  <data name="&gt;&gt;tboxDelay.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tboxDelay.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;tboxDelay.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="btnDelayUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>710, 58</value>
+  </data>
+  <data name="btnDelayUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 12</value>
+  </data>
+  <data name="btnDelayUp.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnDelayUp.Text" xml:space="preserve">
+    <value>▴</value>
+  </data>
+  <data name="&gt;&gt;btnDelayUp.Name" xml:space="preserve">
+    <value>btnDelayUp</value>
+  </data>
+  <data name="&gt;&gt;btnDelayUp.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btnDelayUp.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;btnDelayUp.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lblDelay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 61</value>
+  </data>
+  <data name="lblDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 19</value>
+  </data>
+  <data name="lblDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblDelay.Text" xml:space="preserve">
+    <value>반복 딜레이(ms)</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.Name" xml:space="preserve">
+    <value>lblDelay</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblDelay.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblMacroEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMacroEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 22</value>
+  </data>
+  <data name="lblMacroEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 19</value>
+  </data>
+  <data name="lblMacroEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblMacroEnable.Text" xml:space="preserve">
+    <value>매크로 활성화</value>
+  </data>
+  <data name="&gt;&gt;lblMacroEnable.Name" xml:space="preserve">
+    <value>lblMacroEnable</value>
+  </data>
+  <data name="&gt;&gt;lblMacroEnable.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblMacroEnable.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;lblMacroEnable.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="toggleEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toggleEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 24</value>
+  </data>
+  <data name="toggleEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="toggleEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toggleEnable.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;toggleEnable.Name" xml:space="preserve">
+    <value>toggleEnable</value>
+  </data>
+  <data name="&gt;&gt;toggleEnable.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroToggle, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;toggleEnable.Parent" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;toggleEnable.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="pageSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="pageSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 533</value>
+  </data>
+  <data name="pageSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pageSettings.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="&gt;&gt;pageSettings.Name" xml:space="preserve">
+    <value>pageSettings</value>
+  </data>
+  <data name="&gt;&gt;pageSettings.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;pageSettings.Parent" xml:space="preserve">
+    <value>tabTileForm</value>
+  </data>
+  <data name="&gt;&gt;pageSettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabTileForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 63</value>
+  </data>
+  <data name="tabTileForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>744, 575</value>
+  </data>
+  <data name="tabTileForm.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabTileForm.Name" xml:space="preserve">
+    <value>tabTileForm</value>
+  </data>
+  <data name="&gt;&gt;tabTileForm.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tabTileForm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabTileForm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnMacroSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>635, 502</value>
+  </data>
+  <data name="btnMacroSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 28</value>
+  </data>
+  <data name="btnMacroSave.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnMacroSave.Text" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="&gt;&gt;btnMacroSave.Name" xml:space="preserve">
+    <value>btnMacroSave</value>
+  </data>
+  <data name="&gt;&gt;btnMacroSave.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;btnMacroSave.Parent" xml:space="preserve">
+    <value>pageMacro</value>
+  </data>
+  <data name="&gt;&gt;btnMacroSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="ColMacroName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColMacroName.HeaderText" xml:space="preserve">
+    <value>매크로 명</value>
+  </data>
+  <metadata name="ColMacro.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColMacro.HeaderText" xml:space="preserve">
+    <value>매크로</value>
+  </data>
+  <data name="ColMacro.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <metadata name="ColMacroEnable.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColMacroEnable.HeaderText" xml:space="preserve">
+    <value>활성화</value>
+  </data>
+  <data name="ColMacroEnable.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="gridMacro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11px</value>
+  </data>
+  <data name="gridMacro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="gridMacro.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="gridMacro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 492</value>
+  </data>
+  <data name="gridMacro.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gridMacro.Name" xml:space="preserve">
+    <value>gridMacro</value>
+  </data>
+  <data name="&gt;&gt;gridMacro.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroGrid, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;gridMacro.Parent" xml:space="preserve">
+    <value>pageMacro</value>
+  </data>
+  <data name="&gt;&gt;gridMacro.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 1</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>525, 525</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tboxLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tboxLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>737, 527</value>
+  </data>
+  <data name="tboxLog.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tboxLog.Name" xml:space="preserve">
+    <value>tboxLog</value>
+  </data>
+  <data name="&gt;&gt;tboxLog.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tboxLog.Parent" xml:space="preserve">
+    <value>pageLog</value>
+  </data>
+  <data name="&gt;&gt;tboxLog.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="ctrlTileThemeMgr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>790, 661</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TileForm</value>
+  </data>
+  <data name="&gt;&gt;ColMacroName.Name" xml:space="preserve">
+    <value>ColMacroName</value>
+  </data>
+  <data name="&gt;&gt;ColMacroName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColMacro.Name" xml:space="preserve">
+    <value>ColMacro</value>
+  </data>
+  <data name="&gt;&gt;ColMacro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColMacroEnable.Name" xml:space="preserve">
+    <value>ColMacroEnable</value>
+  </data>
+  <data name="&gt;&gt;ColMacroEnable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctrlTileThemeMgr.Name" xml:space="preserve">
+    <value>ctrlTileThemeMgr</value>
+  </data>
+  <data name="&gt;&gt;ctrlTileThemeMgr.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TileForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>
